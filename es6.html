@@ -58,8 +58,12 @@
         return value.id + "-" + value.title + "-" + value.rating
     })
     console.log(consoleLogCheckRatingLess4)
-     let array = [...courses,...addedCourses]
-    console.log(array);
+
+   let newArray = (courses,addedCourses)=> {
+       console.log([...courses,...addedCourses])
+   }
+    newArray(courses,addedCourses)
+
 </script>
 </body>
 </html>
