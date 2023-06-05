@@ -6,7 +6,7 @@ function App() {
   return (
     <table className='container' >
       <>
-      <h1>Student</h1>
+      <h1 className='titleH1'>Student</h1>
       <tr>
         <td>Company</td>
         <td>contact</td>
