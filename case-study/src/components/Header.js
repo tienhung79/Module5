@@ -6,7 +6,7 @@ import '../css/Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <nav className="navbar navbar-expand-lg  ">
+      <nav className="navbar navbar-expand-lg navbar-custom" >
         <a className="navbar-brand" href="#">
         <img  src="/img/favicon.png" alt="Logo" className="logo" /></a>
         <button
@@ -23,7 +23,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">Trang chủ</a>
+              <a className="nav-link" href="https://furamavietnam.com/vi/our-rooms/">Trang chủ</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Giới thiệu</a>
@@ -32,7 +32,7 @@ const Header = () => {
               <a className="nav-link" href="#">Ẩm thực</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Loại phòng</a>
+              <a className="nav-link" href="https://furamavietnam.com/vi/our-rooms/">Loại phòng</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Giải trí</a>
