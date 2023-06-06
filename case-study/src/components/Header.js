@@ -1,15 +1,14 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Header.css';
-import logoImage from './/favicon.png'; 
+import '../css/Header.css';
 
 const Header = () => {
   return (
     <header className="header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg  ">
         <a className="navbar-brand" href="#">
-        <img  src={logoImage} alt="Logo" className="logo" />Furama</a>
+        <img  src="/img/favicon.png" alt="Logo" className="logo" /></a>
         <button
           className="navbar-toggler"
           type="button"
