@@ -4,7 +4,7 @@ export class Student extends Component{
     constructor(){
         super();
         this.state = {
-            StudentList:[
+            studentList:[
                 {
                     id:1,
                     name: "Nguyen Van A",
@@ -39,7 +39,7 @@ export class Student extends Component{
             </tr>
             {
                 this.state.StudentList.map((student) => (
-                        <tr>
+                        <tr key={student.id}>
                         <td>{student.id}</td>
                         <td>{student.name}</td>
                         <td>{student.age}</td>

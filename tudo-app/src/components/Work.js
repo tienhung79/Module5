@@ -1,6 +1,6 @@
 import {Component} from "react";
 
-export class Tudo extends Component {
+export class Work extends Component {
     constructor() {
         super();
         this.state = {

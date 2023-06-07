@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f94e6db-725a-40cc-98f0-2423cba4a118" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../case-study/src/components/CreateNewCustomer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study/src/components/ListCustomer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study/src/css/CreateNewCustomer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component-counter/src/component/Counter1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component-counter/src/component/Counter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component-counter/src/component/Number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/components/Backgroud.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/components/Backgroud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/components/Foods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/components/Foods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/components/Rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/components/Rooms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/css/Backgroud.css" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/css/Backgroud.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/css/Foods.css" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/css/Foods.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/css/Rooms.css" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/css/Rooms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studentInfoComponent/Student.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentInfoComponent/Student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tudo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tudo-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tudo-app/src/components/Tudo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tudo-app/src/components/Work.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QrstfCXEeaUAkGkPvs9a04RL4g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tudo-app" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f94e6db-725a-40cc-98f0-2423cba4a118" name="Default Changelist" comment="" />
+      <created>1686123250745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686123250745</updated>
+      <workItem from="1686123252113" duration="187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1686123438064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1686123438064" />
+  </component>
+</project>

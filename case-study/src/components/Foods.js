@@ -5,6 +5,7 @@ import '../css/Foods.css';
 export const Foods = () => {
     return (
         <div className="container">
+            <h1 className="h1ForFoods">Ẩm thực</h1>
         <Carousel interval={2000} controls >
             <Carousel.Item>
                 <img

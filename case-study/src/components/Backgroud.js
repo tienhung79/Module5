@@ -6,12 +6,12 @@ const Backgroud = () => {
     return (
         <div className="backgroudH">
             <div className="container">
-                <div className="background">
+                <div className="background ">
                     <div className="content">
                         <h1 className="text">
-                            <p>kHU NGHỈ DƯỠNG ẨM THỰC</p>
+                            <p>KHU NGHỈ DƯỠNG ẨM THỰC</p>
                             <p>TỌA LẠC TẠI BÃI BIỂN ĐÀ NẴNG</p>
-                            <p>mỘT TRONG 6 BÃI BIỂN ĐẸP NHẤT THẾ GIỚI</p>
+                            <p className="contentP">MỘT TRONG 6 BÃI BIỂN ĐẸP NHẤT THẾ GIỚI</p>
                         </h1>
                     </div>
                 </div>

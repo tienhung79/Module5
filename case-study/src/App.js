@@ -5,6 +5,8 @@ import Footer from './components/Footer.js';
 import Backgroud from './components/Backgroud.js';
 import {Rooms} from './components/Rooms';
 import {Foods} from './components/Foods.js'
+import {CreateNewCustomer} from './components/CreateNewCustomer'
+import {ListCustomer} from './components/ListCustomer'
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <Backgroud/>
             <Rooms/>
             <Foods/>
+            {/*<ListCustomer/>*/}
+            <CreateNewCustomer/>
             <Footer/>
         </>
     );
