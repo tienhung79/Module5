@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Backgroud from './components/Backgroud.js';
 import {Rooms} from './components/Rooms';
-import {Foods} from './components/Foods.js'
+import {Service} from './components/Service.js'
 import {CreateNewCustomer} from './components/CreateNewCustomer'
 import {ListCustomer} from './components/ListCustomer'
 
@@ -14,7 +14,7 @@ function App() {
             <Header/>
             <Backgroud/>
             <Rooms/>
-            <Foods/>
+            <Service/>
             {/*<ListCustomer/>*/}
             <CreateNewCustomer/>
             <Footer/>

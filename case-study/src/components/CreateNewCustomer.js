@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css'; // File CSS tùy chỉnh
+import '../css/CreateNewCustomer.css'; // File CSS tùy chỉnh
 
 export const CreateNewCustomer = () => {
     const [formData, setFormData] = useState({
@@ -40,11 +40,11 @@ export const CreateNewCustomer = () => {
     };
 
     return (
-        <div className="container">
-            <h1>Add New Customer</h1>
+        <div className="containerForm">
+            <h1 style={{textAlign: "center"}}>Thêm mới khách hàng</h1>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label htmlFor="fullName">Full Name:</label>
+                    <label htmlFor="fullName">Họ và tên</label>
                     <input
                         type="text"
                         className="form-control"
@@ -56,7 +56,7 @@ export const CreateNewCustomer = () => {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="birthDate">Birth Date:</label>
+                    <label htmlFor="birthDate">Ngày tháng năm sinh</label>
                     <input
                         type="date"
                         className="form-control"
@@ -68,7 +68,7 @@ export const CreateNewCustomer = () => {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="gender">Gender:</label>
+                    <label htmlFor="gender">Giới tính</label>
                     <select
                         className="form-control"
                         id="gender"
@@ -84,7 +84,7 @@ export const CreateNewCustomer = () => {
                     </select>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="idCardNumber">ID Card Number:</label>
+                    <label htmlFor="idCardNumber">Chứng minh nhân dân</label>
                     <input
                         type="text"
                         className="form-control"
@@ -96,7 +96,7 @@ export const CreateNewCustomer = () => {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="phoneNumber">Phone Number:</label>
+                    <label htmlFor="phoneNumber">Số điện thoại</label>
                     <input
                         type="tel"
                         className="form-control"
@@ -120,7 +120,7 @@ export const CreateNewCustomer = () => {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="customerType">Customer Type:</label>
+                    <label htmlFor="customerType">Loại khách hàng</label>
                     <select
                         className="form-control"
                         id="customerType"

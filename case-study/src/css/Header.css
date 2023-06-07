@@ -6,37 +6,39 @@
     height: 94px;
     z-index: 1;
     padding: 20px;
-    color: #fff; 
-     /*background-color: darkgreen;*/
-    /*backdrop-filter: blur(5px);*/
+    color: #fff;
+    /*background-color: #F0F8FF;*/
+    backdrop-filter: blur(2px);
     margin-top: -3px
-   }
-  
-  
-  .navbar-brand {
+}
+
+
+.navbar-brand {
     font-weight: bold;
     margin-right: 84px;
     margin-left: 190px;
     color: black;
-  }
-  
-  .navbar-nav .nav-item {
+}
+
+.navbar-nav .nav-item {
     margin-right: 10px;
-  }
-  
-  .navbar-nav .nav-link {
+}
+
+.navbar-nav .nav-link {
     color: lawngreen;
     font-weight: bold;
-  }
-  .logo {
-      margin-top: 6px;
+}
+
+.logo {
+    margin-top: 6px;
     width: 50px;
     height: auto;
-      margin-left: 95px;
-  }
-  .navbar-custom{
-      margin-top: -30px
-  }
+    margin-left: 95px;
+}
+
+.navbar-custom {
+    margin-top: -30px
+}
   
   
  
