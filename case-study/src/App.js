@@ -7,6 +7,8 @@ import {Rooms} from './components/Rooms';
 import {Service} from './components/Service.js'
 import {CreateNewCustomer} from './components/CreateNewCustomer'
 import {ListCustomer} from './components/ListCustomer'
+import {Routes, Route} from 'react-router-dom'
+import React from "react";
 
 function App() {
     return (
@@ -18,6 +20,10 @@ function App() {
             {/*<ListCustomer/>*/}
             <CreateNewCustomer/>
             <Footer/>
+            <Routes>
+                <Route path='/service' element={<Service/>} />
+            </Routes>
+
         </>
     );
 }

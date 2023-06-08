@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Header.css';
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -28,7 +29,7 @@ const Header = () => {
                             <a className="nav-link" href="#">Giới thiệu</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Ẩm thực</a>
+                            <NavLink className="nav-link" to='/service'>Dịch vụ</NavLink>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://furamavietnam.com/vi/our-rooms/">Loại
