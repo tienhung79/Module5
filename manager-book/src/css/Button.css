@@ -1,0 +1,32 @@
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    height: 36px
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+.nav-link {
+    color: #333;
+    text-decoration: none;
+}
