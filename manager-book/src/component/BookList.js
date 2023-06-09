@@ -18,10 +18,6 @@ export function BookList() {
             }
         }
         disPlay();
-
-        const getById = async (id) => {
-           await service.getById(id)
-        }
     },[])
         return(
             <>
