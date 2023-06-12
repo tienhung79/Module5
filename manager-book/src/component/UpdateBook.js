@@ -24,10 +24,11 @@ export function UpdateBookList() {
        getBookById()
     },[param.id])
 
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setBook((prevBook) => ({ ...prevBook, [name]: value }));
-    };
+
+    if (!book) {
+        return null;
+    }
+
     return (
         <>
             <Formik
@@ -63,9 +64,6 @@ export function UpdateBookList() {
                                 className="form-control"
                                 id="nameInput"
                                 name ='title'
-                                // value={book?.title}
-                                // onChange={handleChange}
-
                             />
                         </div>
                         <div className="form-group">
@@ -75,8 +73,6 @@ export function UpdateBookList() {
                                 className="form-control"
                                 id="quantityInput"
                                 name='quantity'
-                                // value={book?.quantity}
-                                // onChange={handleChange}
                             />
                         </div>
                         <button type="submit" className="btn btn-primary">Chỉnh sửa</button>

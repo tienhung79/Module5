@@ -33,7 +33,7 @@ export const update = async (book,id) => {
 }
  export const deleteBook = async (book, idBook) => {
     try {
-        const res = await axios.delete(`http://localhost:8080/bookList/${idBook}`, book)
+        const res = await axios.delete(`http://localhost:8080/bookList/${idBook}`)
         return res.data;
     } catch(error){
         console.error("loi hien thi");
