@@ -20,9 +20,10 @@ export function CreatVilla() {
 
             >
                 <div className='container'>
+                    <h1>Thêm mới Villa</h1>
                     <Form>
                         <div className="form-group">
-                            <label htmlFor="serviceName">Service Name:</label>
+                            <label htmlFor="serviceName">Tên dịch vụ:</label>
                             <Field
                                 type="text"
                                 className="form-control"
@@ -36,7 +37,7 @@ export function CreatVilla() {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="area">Area (in square meters):</label>
+                            <label htmlFor="area">Diện tích:</label>
                             <Field
                                 type="text"
                                 className="form-control"
@@ -46,7 +47,7 @@ export function CreatVilla() {
                             <ErrorMessage name="area" component="div" className="error-message"/>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="rentalCost">Rental Cost:</label>
+                            <label htmlFor="rentalCost">Chi phí thuê</label>
                             <Field
                                 type="text"
                                 className="form-control"
@@ -60,7 +61,7 @@ export function CreatVilla() {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="maxCapacity">Max Capacity:</label>
+                            <label htmlFor="maxCapacity">Số lượng người</label>
                             <Field
                                 type="text"
                                 className="form-control"
@@ -74,7 +75,7 @@ export function CreatVilla() {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="rentalType">Rental Type:</label>
+                            <label htmlFor="rentalType">Thời gian thuê</label>
                             <Field
                                 as="select"
                                 className="form-control"

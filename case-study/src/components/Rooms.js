@@ -12,7 +12,7 @@ export function Rooms() {
                 <div className="col-6">
                     <h1 className="h1ForRoom">Loại phòng</h1>
                 </div>
-                <div className='col-3'>
+                <div className='col-3 div-navlink'>
                     <NavLink to="/creatVilla" className="btn-primary-navlink ">Thêm mới</NavLink>
                 </div>
             </div>
