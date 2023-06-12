@@ -23,9 +23,10 @@ export function BookList() {
         }
         disPlay();
     },[])
-    const handleDelete = async (book) => {
+    const handleDelete = async (id,book) => {
         try {
-            await service.deleteBook(book.id);
+            await service.deleteBook(id);
+            setBookList(await service.getAll())
             toast(`Xoa ${book.title} thanh cong`)
         } catch (error) {
             toast(`Xoa ${book.title} that bai`)
@@ -45,8 +46,8 @@ export function BookList() {
                         </tr>
                         </thead>
                         <tbody>
-                        { bookList.map((book) => (
-                            <tr key={book}>
+                        { bookList.map((book,index) => (
+                            <tr key={index}>
                                 <td>{book.title}</td>
                                 <td>{book.quantity}</td>
                                 <td>
@@ -55,7 +56,7 @@ export function BookList() {
                                     </button>
                                 </td>
                                 <td>
-                                    <button type="button" className="btn btn-danger" onClick={() => handleDelete(book)}>Delete</button>
+                                    <button type="button" className="btn btn-danger" onClick={() => handleDelete(book.id,book)}>Delete</button>
                                 </td>
                             </tr>
                         ))}

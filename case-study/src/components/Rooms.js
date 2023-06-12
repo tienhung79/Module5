@@ -7,9 +7,14 @@ export function Rooms() {
 
     return (
         <div>
-            <div className='row'>
-                <h1 className="h1ForRoom">Loại phòng</h1>
-                <NavLink to='/creatVilla' className="nav-link">Thêm mới</NavLink>
+            <div className='row col-12'>
+                <div className='col-3'></div>
+                <div className="col-6">
+                    <h1 className="h1ForRoom">Loại phòng</h1>
+                </div>
+                <div className='col-3'>
+                    <NavLink to="/creatVilla" className="btn-primary-navlink ">Thêm mới</NavLink>
+                </div>
             </div>
             <div className="card-container">
                 <div className="card ">
