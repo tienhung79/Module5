@@ -25,7 +25,7 @@ export function BookList() {
     },[])
     const handleDelete = async (book) => {
         try {
-            await service.deleteBook(book, book.id);
+            await service.deleteBook(book.id);
             toast(`Xoa ${book.title} thanh cong`)
         } catch (error) {
             toast(`Xoa ${book.title} that bai`)

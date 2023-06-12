@@ -9,20 +9,15 @@ import {CreateNewCustomer} from './components/CreateNewCustomer'
 import {ListCustomer} from './components/ListCustomer'
 import {Routes, Route} from 'react-router-dom'
 import React from "react";
-import {creatVilla} from './components/CreatVilla'
+import {CreatVilla} from './components/CreatVilla'
+import {Home} from "./components/Home";
 
 function App() {
     return (
         <>
-            <Header/>
-            <Backgroud/>
-            <Rooms/>
-            <Service/>
-            {/*<ListCustomer/>*/}
-            <CreateNewCustomer/>
-            <Footer/>
             <Routes>
-                <Route path='/creatVilla' element={<creatVilla/>} />
+                <Route path='/creatVilla' element={<CreatVilla/>} />
+                <Route path='/' element={<Home/>} />
             </Routes>
 
         </>

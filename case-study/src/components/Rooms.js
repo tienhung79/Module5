@@ -1,12 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Rooms.css'
+import {NavLink} from "react-router-dom";
 
 export function Rooms() {
 
     return (
         <div>
-            <h1 className="h1ForRoom">Loại phòng</h1>
+            <div className='row'>
+                <h1 className="h1ForRoom">Loại phòng</h1>
+                <NavLink to='/creatVilla' className="nav-link">Thêm mới</NavLink>
+            </div>
             <div className="card-container">
                 <div className="card ">
                     <img src="/img/room1.jpg" className="card-img-top"/>
