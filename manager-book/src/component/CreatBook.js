@@ -4,6 +4,7 @@ import {Field, FieldArray, Form, Formik} from "formik";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Form.css'
 import {useNavigate} from "react-router";
+import {toast} from "react-toastify";
 
 export function CreatBookList() {
     const navigate = useNavigate()
@@ -19,6 +20,7 @@ export function CreatBookList() {
                 onSubmit={(values) => {
                     const createBook = async ()=>{
                         await service.save(values)
+                        toast(`Tao ${values.name} thanh cong`)
                         navigate('/')
                     }
                     createBook()

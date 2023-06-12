@@ -17,9 +17,25 @@ export const save = async (book) => {
 }
 export const getById = async (id) =>{
     try {
-       const result = await axios.get('http://localhost:8080/bookList/${id}')
+       const result = await axios.get(`http://localhost:8080/bookList/${id}`)
         return  result.data
     }catch (error) {
         console.log('error')
+    }
+}
+export const update = async (book,id) => {
+    try {
+        await axios.put(`http://localhost:8080/bookList/${id}`, book)
+    } catch (error) {
+        console.log(error);
+        return error
+    }
+}
+ export const deleteBook = async (book, idBook) => {
+    try {
+        const res = await axios.delete(`http://localhost:8080/bookList/${idBook}`, book)
+        return res.data;
+    } catch(error){
+        console.error("loi hien thi");
     }
 }

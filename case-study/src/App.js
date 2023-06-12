@@ -9,6 +9,7 @@ import {CreateNewCustomer} from './components/CreateNewCustomer'
 import {ListCustomer} from './components/ListCustomer'
 import {Routes, Route} from 'react-router-dom'
 import React from "react";
+import {creatVilla} from './components/CreatVilla'
 
 function App() {
     return (
@@ -21,7 +22,7 @@ function App() {
             <CreateNewCustomer/>
             <Footer/>
             <Routes>
-                <Route path='/service' element={<Service/>} />
+                <Route path='/creatVilla' element={<creatVilla/>} />
             </Routes>
 
         </>

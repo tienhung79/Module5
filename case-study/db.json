@@ -1,0 +1,12 @@
+{
+  "villaList": [
+    {
+      "id": 1,
+      "serviceName": "Vip",
+      "are": "Vip",
+      "rentalCost": 120,
+      "maxCapacity": 12,
+      "rentalType": 120
+    }
+  ]
+}
