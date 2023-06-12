@@ -2,11 +2,13 @@ import {useNavigate} from "react-router-dom";
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import * as Yup from 'yup';
 import React from "react";
+import Header from "./Header";
 
 export function CreatVilla() {
     // const navigate = useNavigate()
     return (
         <>
+            <Header/>
             <Formik
                 initialValues={
                     {
@@ -83,10 +85,10 @@ export function CreatVilla() {
                                 name="rentalType"
                             >
                                 <option value="">Select rental type</option>
-                                <option value="year">Year</option>
-                                <option value="month">Month</option>
-                                <option value="day">Day</option>
-                                <option value="hour">Hour</option>
+                                <option value="year">Năm</option>
+                                <option value="month">Tháng</option>
+                                <option value="day">Ngày</option>
+                                <option value="hour">Giờ</option>
                             </Field>
                             <ErrorMessage
                                 name="rentalType"
@@ -95,7 +97,7 @@ export function CreatVilla() {
                             />
                         </div>
                         <button type="submit" className="btn btn-primary">
-                            Add Service
+                           Thêm mới
                         </button>
                     </Form>
                 </div>
