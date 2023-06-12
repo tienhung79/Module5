@@ -11,12 +11,17 @@ import {Routes, Route} from 'react-router-dom'
 import React from "react";
 import {CreatVilla} from './components/CreatVilla'
 import {Home} from "./components/Home";
+import {Dropdown} from "./components/DropDown";
+import {CreatHouse} from "./components/CreatHouse";
+import {CreatRoom} from "./components/CreatRoom";
 
 function App() {
     return (
         <>
             <Routes>
                 <Route path='/creatVilla' element={<CreatVilla/>} />
+                <Route path='/creatHouse' element={<CreatHouse/>} />
+                <Route path='/creatRoom' element={<CreatRoom/>} />
                 <Route path='/' element={<Home/>} />
             </Routes>
 

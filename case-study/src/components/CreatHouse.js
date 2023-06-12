@@ -5,7 +5,7 @@ import React from "react";
 import Header from "./Header";
 import '../css/CreatService.css'
 
-export function CreatVilla() {
+export function CreatHouse() {
     // const navigate = useNavigate()
     return (
         <>
@@ -23,7 +23,7 @@ export function CreatVilla() {
 
             >
                 <div className='container container-service'>
-                    <h1>Thêm mới Villa</h1>
+                    <h1>Thêm mới House</h1>
                     <Form>
                         <div className="form-group">
                             <label htmlFor="serviceName">Tên dịch vụ:</label>
@@ -98,7 +98,7 @@ export function CreatVilla() {
                             />
                         </div>
                         <button type="submit" className="btn btn-primary">
-                           Thêm mới
+                            Thêm mới
                         </button>
                     </Form>
                 </div>

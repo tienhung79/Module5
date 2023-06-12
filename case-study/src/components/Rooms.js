@@ -1,8 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Rooms.css'
-import {NavLink} from "react-router-dom";
 import {Dropdown} from "./DropDown";
+import {NavLink} from "react-router-dom";
+
 
 export function Rooms() {
 
@@ -14,7 +15,7 @@ export function Rooms() {
                     <h1 className="h1ForRoom">Loại phòng</h1>
                 </div>
                 <div className='col-3 div-navlink'>
-                        <Dropdown/>
+                    <Dropdown/>
                 </div>
             </div>
             <div className="card-container">
