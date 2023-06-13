@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import {UserList} from "./component/UserList";
+import {Link, Route, Routes} from "react-router-dom";
+import ListUser from "./component/ListUser";
+import 'bootstrap/dist/css/bootstrap.css';
+import ManageUser from "./component/ListUser";
 import React from "react";
 
+
 function App() {
-  return (
-    <UserList/>
-  );
+    return (
+        <>
+            <ManageUser/>
+        </>
+
+    );
 }
 
 export default App;

@@ -5,18 +5,12 @@
       "name": "Nguyen Van A",
       "email": "Agmail.com",
       "website": "nguyenvanA.com"
-    } ,
+    },
     {
       "id": 2,
       "name": "Nguyen Van B",
-      "email": "Bgmail.com",
-      "website": "nguyenvanB.com"
-    },
-    {
-      "id": 3,
-      "name": "Nguyen Van C",
-      "email": "Cgmail.com",
-      "website": "nguyenvanC.com"
+      "email": "Agmail.com",
+      "website": "nguyenvanA.com"
     }
   ]
 }
