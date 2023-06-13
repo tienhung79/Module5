@@ -22,16 +22,7 @@
     <list default="true" id="a3672dfc-7df3-4212-bd6d-d43e8712916b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/UserList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/http-common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action/Type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/Index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/UserReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/UserService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ListUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ListUser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +78,7 @@
       <updated>1686557446505</updated>
       <workItem from="1686557449651" duration="6658000" />
       <workItem from="1686623604468" duration="2557000" />
-      <workItem from="1686626453633" duration="2110000" />
+      <workItem from="1686626453633" duration="4059000" />
     </task>
     <servers />
   </component>
@@ -111,21 +102,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1686564658510" />
-    <state width="1345" height="211" key="GridCell.Tab.0.bottom" timestamp="1686626555720">
+    <state width="1345" height="211" key="GridCell.Tab.0.bottom" timestamp="1686630686097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1686626555720" />
-    <state width="1345" height="211" key="GridCell.Tab.0.center" timestamp="1686626555720">
+    <state width="1345" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1686630686097" />
+    <state width="1345" height="211" key="GridCell.Tab.0.center" timestamp="1686630686097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1686626555720" />
-    <state width="1345" height="211" key="GridCell.Tab.0.left" timestamp="1686626555720">
+    <state width="1345" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1686630686097" />
+    <state width="1345" height="211" key="GridCell.Tab.0.left" timestamp="1686630686097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1686626555720" />
-    <state width="1345" height="211" key="GridCell.Tab.0.right" timestamp="1686626555720">
+    <state width="1345" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1686630686097" />
+    <state width="1345" height="211" key="GridCell.Tab.0.right" timestamp="1686630686097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1686626555720" />
+    <state width="1345" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1686630686097" />
   </component>
 </project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18c81f06-7758-4f8e-a95e-aafb0479f210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/service/ContactService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/service/RoomService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/component/Contact/ListContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/component/Contact/ListContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/component/serviceFurama/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/component/serviceFurama/Service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/css/ServiceCss/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy-Module5/furama/src/css/ServiceCss/service.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/component/ListUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/component/ListUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/reudux/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/redux/Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/reudux/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/redux/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/reudux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/saga/userSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/saga/userSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/ss8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/exercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2R8sNX7qXrpHH6XnDztR6UqCA5r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/covid-19" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c81f06-7758-4f8e-a95e-aafb0479f210" name="Default Changelist" comment="" />
+      <created>1686643002444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686643002444</updated>
+      <workItem from="1686643003605" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1686643080139">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1686643080139" />
+  </component>
+</project>

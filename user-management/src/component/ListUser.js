@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { useState } from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { DELETE_USER } from "../redux/Action";
@@ -11,9 +11,8 @@ function ManageUser() {
     const handleShow = () => setShow(true);
     const [isShow, setIsShow] = useState(false);
     const [userDelete, setUserDelete] = useState({});
-    const handleDeleteUser = async (id) => {
-       await dispatch({ type: "DELETE_USER", payload: id });
-       await dispatch({ type: "FETCH_USER" });
+    const handleDeleteUser =  (id) => {
+        dispatch({ type: "DELETE_USER", payload: id });
     };
     return (
         <>

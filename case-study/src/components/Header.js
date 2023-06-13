@@ -7,8 +7,8 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="navbar navbar-expand-lg navbar-custom">
-                <a className="navbar-brand" href="#">
-                    <img src="/img/favicon.png" alt="Logo" className="logo"/></a>
+                <NavLink className="navbar-brand" to='/'>
+                    <img src="/img/favicon.png" alt="Logo" className="logo"/></NavLink>
                 <button
                     className="navbar-toggler"
                     type="button"

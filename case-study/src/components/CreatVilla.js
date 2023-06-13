@@ -14,10 +14,13 @@ export function CreatVilla() {
                 initialValues={
                     {
                         serviceName: '',
-                        area: '',
-                        rentalCost: '',
-                        maxCapacity: '',
+                        area: 0,
+                        rentalCost: 0,
+                        maxCapacity: 0,
                         rentalType: '',
+                        description: '',
+                        areaPool: 0,
+                        numberOfFloor: 0,
                     }
                 }
 
@@ -42,7 +45,7 @@ export function CreatVilla() {
                         <div className="form-group">
                             <label htmlFor="area">Diện tích:</label>
                             <Field
-                                type="text"
+                                type="number"
                                 className="form-control"
                                 id="area"
                                 name="area"
@@ -52,7 +55,7 @@ export function CreatVilla() {
                         <div className="form-group">
                             <label htmlFor="rentalCost">Chi phí thuê</label>
                             <Field
-                                type="text"
+                                type="number"
                                 className="form-control"
                                 id="rentalCost"
                                 name="rentalCost"
@@ -66,13 +69,55 @@ export function CreatVilla() {
                         <div className="form-group">
                             <label htmlFor="maxCapacity">Số lượng người</label>
                             <Field
-                                type="text"
+                                type="number"
                                 className="form-control"
                                 id="maxCapacity"
                                 name="maxCapacity"
                             />
                             <ErrorMessage
                                 name="maxCapacity"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="description">Mô tả tiện nghi khác</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="description"
+                                name="description"
+                            />
+                            <ErrorMessage
+                                name="description"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="areaPool">Diện tích hồ bơi</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="areaPool"
+                                name="areaPool"
+                            />
+                            <ErrorMessage
+                                name="areaPool"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="numberOfFloor">Số tầng</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="numberOfFloor"
+                                name="numberOfFloor"
+                            />
+                            <ErrorMessage
+                                name="numberOfFloor"
                                 component="div"
                                 className="error-message"
                             />

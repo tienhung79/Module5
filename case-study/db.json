@@ -2,11 +2,186 @@
   "villaList": [
     {
       "id": 1,
-      "serviceName": "Vip",
-      "are": "Vip",
+      "serviceName": "Villa",
+      "area": 12,
       "rentalCost": 120,
       "maxCapacity": 12,
-      "rentalType": 120
+      "rentalType": "",
+      "description": "Có hồ bơi,",
+      "areaPool": 12,
+      "numberOfFloor": 3,
+      "img": "villa1.jpg"
+    },
+    {
+      "id": 2,
+      "serviceName": "Villa 1",
+      "area": 12,
+      "rentalCost": 120,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "Có hồ bơi,",
+      "areaPool": 12,
+      "numberOfFloor": 3,
+      "img": "villa2.jpg"
+    },
+    {
+      "id": 3,
+      "serviceName": "Villa 2",
+      "area": 12,
+      "rentalCost": 120,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "Có hồ bơi,",
+      "areaPool": 12,
+      "numberOfFloor": 3,
+      "img": "villa3.jpg"
+    },
+    {
+      "id": 4,
+      "serviceName": "Villa 3",
+      "area": 12,
+      "rentalCost": 120,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "Có hồ bơi,",
+      "areaPool": 12,
+      "numberOfFloor": 3,
+      "img": "villa4.jpg"
+    },
+    {
+      "id": 5,
+      "serviceName": "Villa 4",
+      "area": 12,
+      "rentalCost": 120,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "Có hồ bơi,",
+      "areaPool": 12,
+      "numberOfFloor": 3,
+      "img": "villa5.jpg"
+    }
+  ],
+
+
+  "houseList": [
+    {
+      "id": 1,
+      "serviceName": "House",
+      "area":12 ,
+      "rentalCost": 120.000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "View hướng biển",
+      "numberOfFloor": 3,
+      "img": "house1.jpg"
+    },
+    {
+      "id": 2,
+      "serviceName": "House 1",
+      "area":12 ,
+      "rentalCost": 120.000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "View hướng biển",
+      "numberOfFloor": 3,
+      "img": "house2.jpg"
+    },
+    {
+      "id": 3,
+      "serviceName": "House 3",
+      "area":12 ,
+      "rentalCost": 120.000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "View hướng biển",
+      "numberOfFloor": 3,
+      "img": "house3.jpg"
+    },
+    {
+      "id": 4,
+      "serviceName": "House 4",
+      "area":12 ,
+      "rentalCost": 120.000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "View hướng biển",
+      "numberOfFloor": 3,
+      "img": "house4.jpg"
+    },
+    {
+      "id": 5,
+      "serviceName": "House 5",
+      "area":12 ,
+      "rentalCost": 120.000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "description": "View hướng biển",
+      "numberOfFloor": 3,
+      "img": "house5.jpg"
+    }
+  ],
+
+
+  "roomList": [
+    {
+      "id": 1,
+      "serviceName": "Room",
+      "area":12 ,
+      "rentalCost": 120000,
+      "maxCapacity": 12,
+      "rentalType": "",
+     "serviceIncluded": "Có buffe sáng",
+      "img": "room1.jpg"
+    },
+    {
+      "id": 2,
+      "serviceName": "Room 2",
+      "area":13 ,
+      "rentalCost": 121000,
+      "maxCapacity": 10,
+      "rentalType": "",
+      "serviceIncluded": "Có buffe sáng",
+      "img": "room2.jpg"
+    },
+    {
+      "id": 3,
+      "serviceName": "Room 3",
+      "area":12 ,
+      "rentalCost": 120000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "serviceIncluded": "Có buffe sáng",
+      "img": "room3.jpg"
+    },
+    {
+      "id": 4,
+      "serviceName": "Room 4",
+      "area":13 ,
+      "rentalCost": 121000,
+      "maxCapacity": 10,
+      "rentalType": "",
+      "serviceIncluded": "Có buffe sáng",
+      "img": "room4.jpg"
+    },
+    {
+      "id": 5,
+      "serviceName": "Room 5",
+      "area":12 ,
+      "rentalCost": 120000,
+      "maxCapacity": 12,
+      "rentalType": "",
+      "serviceIncluded": "Có buffe sáng",
+      "img": "room5.jpg"
+    },
+    {
+      "id": 6,
+      "serviceName": "Room 6",
+      "area":13 ,
+      "rentalCost": 121000,
+      "maxCapacity": 10,
+      "rentalType": "",
+      "serviceIncluded": "Có buffe sáng",
+      "img": "room1.jpg"
     }
   ]
 }

@@ -23,7 +23,6 @@ export const Dropdown = () => {
                 <NavLink to="/creatVilla" className="dropdown-item">Villa</NavLink>
                 <NavLink to="/creatHouse" className="dropdown-item">House</NavLink>
                 <NavLink to="/creatRoom" className="dropdown-item">Room</NavLink>
-
             </div>
         </div>
     );

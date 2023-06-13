@@ -18,6 +18,8 @@ export function CreatHouse() {
                         rentalCost: '',
                         maxCapacity: '',
                         rentalType: '',
+                        description: '',
+                        numberOfFloor: 0,
                     }
                 }
 
@@ -73,6 +75,34 @@ export function CreatHouse() {
                             />
                             <ErrorMessage
                                 name="maxCapacity"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="description">Mô tả tiện nghi khác</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="description"
+                                name="description"
+                            />
+                            <ErrorMessage
+                                name="description"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="numberOfFloor">Số tầng</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="numberOfFloor"
+                                name="numberOfFloor"
+                            />
+                            <ErrorMessage
+                                name="numberOfFloor"
                                 component="div"
                                 className="error-message"
                             />

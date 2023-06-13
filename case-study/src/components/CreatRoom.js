@@ -14,10 +14,11 @@ export function CreatRoom() {
                 initialValues={
                     {
                         serviceName: '',
-                        area: '',
-                        rentalCost: '',
-                        maxCapacity: '',
+                        area: 0,
+                        rentalCost: 0,
+                        maxCapacity: 0,
                         rentalType: '',
+                        serviceIncluded: '',
                     }
                 }
 
@@ -73,6 +74,20 @@ export function CreatRoom() {
                             />
                             <ErrorMessage
                                 name="maxCapacity"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="serviceIncluded">Dịch vụ miễn phí đi kèm</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="serviceIncluded"
+                                name="serviceIncluded"
+                            />
+                            <ErrorMessage
+                                name="serviceIncluded"
                                 component="div"
                                 className="error-message"
                             />

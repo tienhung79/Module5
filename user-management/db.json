@@ -1,12 +1,6 @@
 {
   "userList": [
     {
-      "id": 1,
-      "name": "Nguyen Van A",
-      "email": "Agmail.com",
-      "website": "nguyenvanA.com"
-    },
-    {
       "id": 2,
       "name": "Nguyen Van B",
       "email": "Agmail.com",
