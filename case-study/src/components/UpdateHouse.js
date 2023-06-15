@@ -1,37 +1,51 @@
-import {useNavigate} from "react-router-dom";
-import {ErrorMessage, Field, Form, Formik} from "formik";
-import * as Yup from 'yup';
-import React from "react";
+import React, {useEffect, useState} from "react";
+import {useParams,useNavigate} from "react-router-dom";
+import * as service from '../service/ServiceHouse'
 import Header from "./Header";
-import '../css/CreatService.css'
-import * as service from '../service/ServiceRoom'
+import {ErrorMessage, Field, Form, Formik} from "formik";
+import {toast, ToastContainer} from "react-toastify";
 
-export function CreatRoom() {
+
+export function UpdateHouse() {
+    const [house,setHouse] = useState()
+    const param = useParams()
     const navigate = useNavigate()
+    useEffect(()=>{
+        const getById = async ()=>{
+            setHouse(await service.getById(param.id))
+        }
+        getById()
+    })
+    if (!house){
+        return null
+    }
     return (
         <>
             <Header/>
             <Formik
                 initialValues={
                     {
-                        serviceName: '',
-                        area: 0,
-                        rentalCost: 0,
-                        maxCapacity: 0,
-                        rentalType: '',
-                        serviceIncluded: '',
+                        serviceName: house.serviceName,
+                        area: house.area,
+                        rentalCost: house.rentalCost,
+                        maxCapacity: house.maxCapacity,
+                        rentalType: house.rentalType,
+                        description: house.description,
+                        numberOfFloor: house.numberOfFloor,
                     }
                 }
-                onSubmit={(values)=>{
-                    const create = async () =>{
-                        await service.creat(values)
-                        navigate('/')
+                onSubmit={(values) => {
+                    const update = async () =>{
+                        await service.update(param.id,values)
+                        toast(`Chỉnh sửa ${values.serviceName} thành công`)
+                        navigate('/house')
                     }
-                    create()
+                    update()
                 }}
+
             >
                 <div className='container container-service'>
-                    <h1>Thêm mới Room</h1>
+                    <h1>Thêm mới House</h1>
                     <Form>
                         <div className="form-group">
                             <label htmlFor="serviceName">Tên dịch vụ:</label>
@@ -86,15 +100,29 @@ export function CreatRoom() {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="serviceIncluded">Dịch vụ miễn phí đi kèm</label>
+                            <label htmlFor="description">Mô tả tiện nghi khác</label>
                             <Field
                                 type="text"
                                 className="form-control"
-                                id="serviceIncluded"
-                                name="serviceIncluded"
+                                id="description"
+                                name="description"
                             />
                             <ErrorMessage
-                                name="serviceIncluded"
+                                name="description"
+                                component="div"
+                                className="error-message"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="numberOfFloor">Số tầng</label>
+                            <Field
+                                type="text"
+                                className="form-control"
+                                id="numberOfFloor"
+                                name="numberOfFloor"
+                            />
+                            <ErrorMessage
+                                name="numberOfFloor"
                                 component="div"
                                 className="error-message"
                             />
@@ -125,6 +153,7 @@ export function CreatRoom() {
                     </Form>
                 </div>
             </Formik>
+
         </>
     )
 }

@@ -23,3 +23,11 @@ export const getById = async (id) =>{
         console.log('error')
     }
 }
+export const update = async (id,villa) =>{
+    try {
+        await axios.put(`http://localhost:8080/villaList/${id}`,villa)
+    }catch (error) {
+        console.log('error')
+
+    }
+}

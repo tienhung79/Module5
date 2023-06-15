@@ -7,11 +7,13 @@ import * as serviceVilla from '../service/ServiceVilla';
 import '../css/page.css'
 import {NavLink} from "react-router-dom";
 import {ToastContainer} from "react-toastify";
+import Header from "./Header";
+import Footer from "./Footer";
 
-export function Villa() {
+export function VillageDetail() {
     const [villaList, setVillaList] = useState([]);
     const [pageNumber, setPageNumber] = useState(0);
-    const villasPerPage = 3;
+    const villasPerPage = 4;
     const pagesVisited = pageNumber * villasPerPage;
 
     useEffect(() => {
@@ -33,27 +35,28 @@ export function Villa() {
 
     const displayVilla = villaList.slice(pagesVisited, pagesVisited + villasPerPage).map((villa, index) => (
         <>
-        <div className="card" key={index}>
-            <img src={`/img/${villa.img}`} className="card-img-top" alt="Room" />
-            <div className="card-body">
-                <h5 className="card-title">{villa.serviceName}</h5>
-                <p className="card-text">Diện tích: {villa.area}</p>
-                <p className="card-text">Số lượng người: {villa.maxCapacity} người</p>
+            <div className="card" key={index}>
+                <img src={`/img/${villa.img}`} className="card-img-top" alt="Room" />
+                <div className="card-body">
+                    <h5 className="card-title">{villa.serviceName}</h5>
+                    <p className="card-text">Diện tích: {villa.area}</p>
+                    <p className="card-text">Số lượng người: {villa.maxCapacity} người</p>
+                </div>
+                <div className="card-footer">
+                    <span className="price">Chi phí thuê: {villa.rentalCost}đ/ngày</span>
+                </div>
+                <div className="card-footer">
+                    <NavLink to={'/updateVilla/'+villa.id} ><i
+                        className="bi bi-gear-wide-connected"></i></NavLink>
+                </div>
             </div>
-            <div className="card-footer">
-                <span className="price">Chi phí thuê: {villa.rentalCost}đ/ngày</span>
-            </div>
-            <div className="card-footer">
-                <NavLink to={'updateVilla/'+villa.id} ><i
-                    className="bi bi-gear-wide-connected"></i></NavLink>
-            </div>
-        </div>
         </>
     ));
 
     return (
         <>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+            <Header/>
             <div>
                 <div className='row col-12'>
                     <div className='col-3'></div>
@@ -76,6 +79,19 @@ export function Villa() {
                     activeClassName={"pagination__link--active"}
                 />
             </div>
+            <Footer/>
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+            />
         </>
     );
 }

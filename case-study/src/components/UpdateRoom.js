@@ -1,34 +1,43 @@
-import {useNavigate} from "react-router-dom";
-import {ErrorMessage, Field, Form, Formik} from "formik";
-import * as Yup from 'yup';
-import React from "react";
-import Header from "./Header";
-import '../css/CreatService.css'
+import React, {useEffect, useState} from "react";
+import {useParams,useNavigate} from "react-router-dom";
 import * as service from '../service/ServiceRoom'
+import Header from "./Header";
+import {ErrorMessage, Field, Form, Formik} from "formik";
 
-export function CreatRoom() {
+export function UpdateRoom() {
+    const [room, setRoom] = useState()
+    const param = useParams()
     const navigate = useNavigate()
+    useEffect(()=>{
+        const getById = async () =>{
+           setRoom( await service.getById(param.id))
+        }
+        getById()
+    },[param.id])
+    if (!room){
+        return null
+    }
     return (
         <>
             <Header/>
             <Formik
                 initialValues={
                     {
-                        serviceName: '',
-                        area: 0,
-                        rentalCost: 0,
-                        maxCapacity: 0,
-                        rentalType: '',
-                        serviceIncluded: '',
+                        serviceName: room.serviceName,
+                        area: room.area,
+                        rentalCost: room.rentalCost,
+                        maxCapacity: room.maxCapacity,
+                        rentalType: room.rentalType,
+                        serviceIncluded: room.serviceIncluded,
                     }
                 }
-                onSubmit={(values)=>{
-                    const create = async () =>{
-                        await service.creat(values)
-                        navigate('/')
-                    }
-                    create()
-                }}
+               onSubmit={(values) => {
+                   const update = async () =>{
+                       await service.update(param.id,values)
+                       navigate('/')
+                   }
+                   update()
+               }}
             >
                 <div className='container container-service'>
                     <h1>Thêm mới Room</h1>
@@ -120,7 +129,7 @@ export function CreatRoom() {
                             />
                         </div>
                         <button type="submit" className="btn btn-primary">
-                            Thêm mới
+                           Chỉnh sửa
                         </button>
                     </Form>
                 </div>

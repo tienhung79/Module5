@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Header.css';
 import {NavLink} from "react-router-dom";
+import {DropdownService} from "./DropDownService";
 
 const Header = () => {
     return (
@@ -23,13 +24,13 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="https://furamavietnam.com/vi/our-rooms/">Trang chủ</a>
+                            <NavLink className="nav-link" to='/'>Trang chủ</NavLink>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Giới thiệu</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to='/service'>Dịch vụ</NavLink>
+                           <DropdownService/>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://furamavietnam.com/vi/our-rooms/">Loại

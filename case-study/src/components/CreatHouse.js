@@ -4,9 +4,11 @@ import * as Yup from 'yup';
 import React from "react";
 import Header from "./Header";
 import '../css/CreatService.css'
+import * as service from '../service/ServiceHouse'
+import {toast} from "react-toastify";
 
 export function CreatHouse() {
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
     return (
         <>
             <Header/>
@@ -22,6 +24,14 @@ export function CreatHouse() {
                         numberOfFloor: 0,
                     }
                 }
+                onSubmit={(values) => {
+                    const creat = async () => {
+                        await service.creat(values)
+                        toast(`Tạo mới ${values.serviceName} thành công`)
+                        navigate('/house')
+                    }
+                    creat()
+                }}
 
             >
                 <div className='container container-service'>

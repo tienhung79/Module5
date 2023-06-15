@@ -23,3 +23,17 @@ export const getById = async (id) =>{
         console.log('error')
     }
 }
+export const update = async (id,room) =>{
+    try {
+        await axios.put(`http://localhost:8080/roomList/${id}`,room)
+    }catch (error) {
+        console.log('error')
+    }
+}
+export const deleteRoom = async (id) =>{
+    try {
+        await axios.delete(`http://localhost:8080/roomList/${id}`)
+    }catch (error) {
+        console.log('error')
+    }
+}
