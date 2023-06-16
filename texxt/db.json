@@ -1,0 +1,50 @@
+{
+  "productList": [
+    {
+      "codeOfProduct": "SP-1234123123",
+      "nameOfProduct": "Iphone14",
+      "priceOfProduct": 12000,
+      "kindOfProduct": "1",
+      "dateOfProduct": "23-7-2023",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "codeOfProduct": "SP-4567",
+      "nameOfProduct": "Iphone12",
+      "priceOfProduct": 34000,
+      "kindOfProduct": "1",
+      "dateOfProduct": "12-7-2023"
+    },
+    {
+      "id": 3,
+      "codeOfProduct": "SP-3212",
+      "nameOfProduct": "Lenovo",
+      "priceOfProduct": 21000,
+      "kindOfProduct": "3",
+      "dateOfProduct": "21-7-2023"
+    },
+    {
+      "id": 4,
+      "codeOfProduct": "SP-0000",
+      "nameOfProduct": "Lenovo Pad",
+      "priceOfProduct": 14000,
+      "kindOfProduct": "2",
+      "dateOfProduct": "12-7-2023"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "nameOfCategory": "Điện thoại"
+    },
+    {
+      "id": "2",
+      "nameOfCategory": "Máy tính bảng"
+    },
+    {
+      "id": "3",
+      "nameOfCategory": "Laptop"
+    }
+  ]
+}
